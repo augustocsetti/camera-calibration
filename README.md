@@ -1,14 +1,17 @@
 # Camera Calibration App
 
 ## Description
-Camera calibration using OpenCV with Python. This simple application read a file path with calibration pictures 
+Camera calibration using OpenCV with Python. This simple application read a file path with calibration pictures and 
 
 ## Installation
-Use the package manager pip to install the requirements file.
+Use the package manager pip to install the requirements file.<br>
 ```pip install -r requirements.txt```
 
 ## Usage
-To
+To run the application use the command bellow.<br>
+```python main.py <imagePath>```<br>
+Example:<br>
+```python main.py .\photos\06-06-2022```
 
 ## References
 - https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html
